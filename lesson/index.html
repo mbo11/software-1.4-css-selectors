@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to CSS</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mark Borum</h1>
+        </header>
+        <nav>
+            <ul style="padding-inline-start: 0px">
+                <li class="navlink">Home</li>
+                <li class="navlink">About me</li>
+                <li class="navlink">Gallery</li>
+                <li class="navlink">Contact me</li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h2>Home</h2>
+            <p>If you want to see where I poorly build websites check out my <a href="https://github.com/mbo11" target="_blank">Github</a>.</p>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>This is about me part</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <img src="https://picsum.photos/200" alt="random image">
+            <img src="https://picsum.photos/200" alt="random image">
+            <img src="https://picsum.photos/200" alt="random image">
+            <img src="https://picsum.photos/200" alt="random image">
+        </section>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name"/>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Enter your email"/>
+                <br>
+                <textarea>Leave your message...</textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="box-model">
+            <p id="paragraph1">This is the first paragraph</p>
+            <p id="paragraph2">This is the second paragraph</p>
+        </section>
+    </body>
+</html>
